@@ -1,0 +1,9 @@
+number: 2
+url: jdbc:mysql://localhost:3306/authorizaton
+user: root
+password:
+driver: com.mysql.cj.jdbc.Driver
+query: /home/anna/testDate/task/conf/select2.sql
+nameWithPath: /home/anna/testDate/task/conf/test2.csv
+areYouNeedArchive: false
+cron: */40 * * * * *

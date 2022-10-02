@@ -1,0 +1,9 @@
+number: 1
+url: jdbc:mysql://localhost:3306/csvHibernate
+user: root
+password:
+driver: com.mysql.cj.jdbc.Driver
+query: /home/anna/testDate/task/conf/select1.sql
+nameWithPath: /home/anna/testDate/task/conf/test1.csv
+areYouNeedArchive: false
+cron: */30 * * * * *
